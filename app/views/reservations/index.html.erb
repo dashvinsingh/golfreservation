@@ -1,0 +1,56 @@
+<% if user_signed_in? %>
+  <div>Signed in as... <%= current_user.email %>
+  <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: "btn btn-warning" %></div>
+  <% end %>
+
+
+<h1>Reservations</h1>
+
+<%= link_to 'New Reservation', golfclubs_path, class: "btn btn-success"%>
+<%= link_to 'Golf Clubs', golfclubs_path, class: "btn btn-info" %>
+<%= link_to 'Admin Page', admin_root_url, class: "btn btn-primary"%>
+
+<h1>Current Reservations</h1>
+
+<%if params[:delete] == 'true' %>
+  <div class="alert alert-danger alert-dismissable fade in" style='margin-left:2px'>
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Reservation Cancel Successful!</strong> Your reservation has been canceled.
+  </div>
+
+<%end%>
+
+
+
+
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Club</th>
+      <th>Timeslot</th>
+      <th>  Cancel Reservation</th>
+    </tr>
+  </thead>
+  <% i = 1 %>
+
+  <tbody>
+  <% @reservations.each do |d| %>
+<% if d.user == current_user %>
+    <tr>
+      <th scope="row"><%=i%></th>
+      <td><%=Golfclub.find(d.golfclub_id).name%></td>
+      <td><%=Timeslot.find(d.timeslot_id).title%></td>
+      <td><%= link_to "Cancel Reservation", reservation_path(d),
+        method: :delete,
+        data: { confirm: 'Are you sure?' } ,class: "btn btn-danger"%></td>
+            <%i += 1%>
+
+    </tr>
+    <% end %>
+	<% end %>
+  </tbody>
+</table>
+
+

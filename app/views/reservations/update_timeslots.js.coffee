@@ -1,0 +1,2 @@
+$("#timeslots_select").empty()
+  

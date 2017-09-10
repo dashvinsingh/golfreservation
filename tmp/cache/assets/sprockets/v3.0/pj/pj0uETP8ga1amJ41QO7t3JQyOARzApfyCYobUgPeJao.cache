@@ -1,0 +1,5 @@
+I"ƒ(function() {
+  $("#timeslots_select").empty().append("<%= escape_javascript(render(:partial => @timeslots)) %>");
+
+}).call(this);
+:ET

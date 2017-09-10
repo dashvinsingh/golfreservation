@@ -1,0 +1,75 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require devise_bootstrap_views
+ *= require animate
+ *= require bootstrap-datepicker
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#reservationerror {
+	color: red;
+}
+
+* {
+	margin-left:10px;
+}
+
+.list-group {
+	width: 30%;
+}
+
+.table {
+	width: 70%;
+}
+
+.panel {
+	margin: 10%;
+	margin-left: 25%;
+	width: 50%;
+}
+
+#successreservation {
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background-color: #32CD32;
+  border-radius: 3px;
+}
+#successreservation h1 {
+
+text-align: center;
+vertical-align: middle;
+line-height: 90px;  
+color: #fff
+}
+
+#successreservation #othertext {
+	text-align: center;
+	vertical-align: left;
+	line-height: 80px;  
+}
+
+.alert {
+	margin-left: 10%;
+	margin-right: 12%;
+
+}

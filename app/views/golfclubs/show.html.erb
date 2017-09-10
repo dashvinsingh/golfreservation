@@ -1,0 +1,113 @@
+<% if user_signed_in? %>
+  <div>Signed in as... <%= current_user.email %>
+  <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: "btn btn-warning" %></div>
+  <% end %>
+
+<h1><%= @golfclub.name%> Reservation</h1>
+<%= link_to 'Back', golfclubs_path,  class: 'btn btn-warning' %><%= link_to 'Home', reservations_path,  class: 'btn btn-success'%>
+
+<hr>
+
+
+<%= form_for @reservation do |f| %>
+
+
+
+   <h3 style='color:navy'>Select Date: 
+  </h3>
+  <p><%= f.text_field :date, "data-provide" => 'datepicker' %></p>
+
+
+<h3 style='color:navy'>Select timeslot: 
+</h3>
+
+<%if params[:error] == 'true' %>
+  <div class="alert alert-danger alert-dismissable fade in" style='margin-left:2px'>
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Selection Error!</strong> Please select a valid timeslot. This timeslot may be occupied.
+  </div>
+  <%end%>
+
+  <%if params[:error] == 'overlap' %>
+  <div class="alert alert-danger alert-dismissable fade in" style='margin-left:2px'>
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Overlap Error!</strong> You already reserved this timeslot for another golfclub. Please select another one.
+  </div>
+  <%end%>
+
+
+
+<p><%= f.select :timeslot_id, options_for_select(@timeslots.sort.collect { |x|
+    [x.title, x.id] }, 0),{:include_blank => "Select One"}, { id: 'timeslots_select', class: 'btn btn-info btn-lg dropdown-toggle'}%>
+	</p>
+
+	<p>
+	<%= f.select :golfclub_id, options_for_select(@golfclubs.sort.collect { |x|
+    [x.name, x.id] }, @golfclub.id), { id: 'golfclubs_select' }, {:hidden=>true} %>
+	<%= f.hidden_field :golfclub_id, :value => @golfclub.id %>	</p>
+
+
+
+
+
+
+	<p>
+		<%= f.submit "Make Reservation", class: "btn btn-primary btn-lg",  data: { confirm: 'Are you sure?'}%>
+	</p>
+<% end %>
+<hr>
+
+
+<h3>Timeslots Available:</h3>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Timeslot</th>
+    </tr>
+  </thead>
+  <% i = 1 %>
+
+  <tbody>
+<% @times.sort.each do |t| %>
+<% if t.available == true %>
+    <tr>
+      <th scope="row"><%=i%></th>
+      <td><%=t.title%></td>
+	  <%i += 1%>
+    </tr>
+	<% end %>
+	<% end %>
+  </tbody>
+</table>
+
+<h3>Timeslots Occupied:</h3>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Timeslot</th>
+      <th>User</th>
+    </tr>
+  </thead>
+  <% i = 1 %>
+
+  <tbody>
+<% @times.sort.each do |t| %>
+<% if t.available != true %>
+    <tr>
+      <th scope="row"><%=i%></th>
+      <td><%=t.title%></td>
+      <td><%=t.user.email.byteslice(0, t.user.email.index('@'))%></td>
+	  <%i += 1%>
+    </tr>
+	<% end %>
+	<% end %>
+  </tbody>
+</table>
+
+
+
+
+

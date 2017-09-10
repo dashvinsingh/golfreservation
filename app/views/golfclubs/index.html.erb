@@ -1,0 +1,14 @@
+<% if user_signed_in? %>
+  <div>Signed in as... <%= current_user.email %>
+  <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: "btn btn-warning" %></div>
+  <% end %>
+
+<h1> Golf Clubs</h1>
+
+<div class="list-group">
+<% @clubs.each do |c| %>
+<li style='list-style-type: none'><p><%= link_to c.name, c, class: "list-group-item list-group-item-action list-group-item-info"%></p></li>
+<% end %>
+</div>
+<%= link_to 'Back', '/', class: 'btn btn-warning' %>
+
