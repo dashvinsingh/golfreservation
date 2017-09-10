@@ -34,7 +34,6 @@ ActiveAdmin.register Reservation do
     def new
       @reservation = Reservation.new
       timeslots = Timeslot.first.title
-      console
     end
     def create
       @reservation = Reservation.new(reservation_params)
