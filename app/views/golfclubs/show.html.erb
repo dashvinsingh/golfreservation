@@ -84,8 +84,11 @@
       <tr>
         <th scope="row"><%=i%></th>
         <td><%=t.title%></td>
-        <!-- <td><%=t.user.email.byteslice(0, t.user.email.index('@'))%></td> -->
-        <td><%=t.user.name%></td>
+        <% if t.user.name.nil? %>
+          <td><%=t.user.email.byteslice(0, t.user.email.index('@'))%></td>
+        <% else %>
+          <td><%=t.user.name%></td>
+        <% end %>
         <!-- <td><%= image_tag(t.user.image)%></td> -->
   	  <%i += 1%>
       </tr>
