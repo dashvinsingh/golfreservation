@@ -79,16 +79,16 @@
   <% i = 1 %>
 
   <tbody>
-<% @times.sort.each do |t| %>
-<% if t.available != true %>
-    <tr>
-      <th scope="row"><%=i%></th>
-      <td><%=t.title%></td>
-      <!-- <td><%=t.user.email.byteslice(0, t.user.email.index('@'))%></td> -->
-      <td><%=t.user.name%></td>
-      <!-- <td><%= image_tag(t.user.image)%></td> -->
-	  <%i += 1%>
-    </tr>
+  <% @times.sort.each do |t| %>
+  <% if t.available != true %>
+      <tr>
+        <th scope="row"><%=i%></th>
+        <td><%=t.title%></td>
+        <!-- <td><%=t.user.email.byteslice(0, t.user.email.index('@'))%></td> -->
+        <td><%=t.user.name%></td>
+        <!-- <td><%= image_tag(t.user.image)%></td> -->
+  	  <%i += 1%>
+      </tr>
 	<% end %>
 	<% end %>
   </tbody>
