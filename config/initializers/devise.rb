@@ -13,7 +13,7 @@ Devise.setup do |config|
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
   config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
-  config.omniauth :facebook, "710950145764321", "5b55307d5a7f0c0b08f42a94ea956787", callback_url: "http://localhost:3000/users/auth/facebook/callback"
+  config.omniauth :facebook, "710950145764321", "5b55307d5a7f0c0b08f42a94ea956787", callback_url: "http://golfreservation.herokuapp.com/users/auth/facebook/callback"
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
