@@ -29762,3 +29762,1768 @@ Processing by ReservationsController#index as HTML
 Completed 200 OK in 710ms (Views: 682.3ms | ActiveRecord: 1.1ms)
 
 
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:08:42 -0400
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 67ms (ActiveRecord: 8.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-10 19:08:42 -0400
+Processing by ReservationsController#index as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 2155ms (Views: 2142.1ms | ActiveRecord: 4.6ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2017-09-10 19:08:46 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"AKbOJejJqLB4Y2k6yA6znYMxNZMGZLYq/XMDxbBPhsL/ven6aJ0sQEPi6DRs5ou5s7gvGzuCm9gMH68Wo9nWBQ=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 25ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-10 19:08:46 -0400
+Processing by ReservationsController#index as HTML
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:08:46 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 636ms (Views: 633.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:11:59 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 732ms (Views: 729.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:12:02 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 816ms (Views: 813.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:12:03 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 717ms (Views: 714.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:12:05 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 864ms (Views: 862.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:12:07 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 825ms (Views: 822.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:12:32 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 2172ms (Views: 2099.8ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:12:35 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 1135ms (Views: 1132.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:15:17 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 9624ms (Views: 9622.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:15:49 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 520ms (Views: 518.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:16:02 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 841ms (Views: 838.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:16:16 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 793ms (Views: 791.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:19:56 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 416ms (Views: 413.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:20:11 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 2365ms (Views: 2295.3ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:22:43 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 7641ms (Views: 7639.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:23:02 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 794ms (Views: 792.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:23:36 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 672ms (Views: 669.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:29:42 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 1909ms (Views: 1810.8ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:29:46 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (6.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 1196ms (Views: 1194.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-10 19:31:29 -0400
+Processing by ReservationsController#index as HTML
+Completed 401 Unauthorized in 32ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:31:30 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (9.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 1067ms (Views: 1018.9ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2017-09-10 19:31:36 -0400
+  
+ActionController::RoutingError (uninitialized constant UsersController):
+  
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.2) lib/action_dispatch/http/request.rb:82:in `controller_class'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+omniauth (1.6.1) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.6.1) lib/omniauth/strategy.rb:167:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sign_in" for 127.0.0.1 at 2017-09-10 19:31:48 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/sign_in"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/signin" for 127.0.0.1 at 2017-09-10 19:31:52 -0400
+  
+ActionController::RoutingError (uninitialized constant UsersController):
+  
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.2) lib/action_dispatch/http/request.rb:82:in `controller_class'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+omniauth (1.6.1) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.6.1) lib/omniauth/strategy.rb:167:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sign_in" for 127.0.0.1 at 2017-09-10 19:33:10 -0400
+  
+ActionController::RoutingError (uninitialized constant UsersController):
+  
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.2) lib/action_dispatch/http/request.rb:82:in `controller_class'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+omniauth (1.6.1) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.6.1) lib/omniauth/strategy.rb:167:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-09-10 19:33:15 -0400
+Processing by ReservationsController#index as HTML
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:33:15 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 523ms (Views: 487.8ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2017-09-10 19:33:30 -0400
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2017-09-10 19:33:30 -0400
+Started GET "/" for 127.0.0.1 at 2017-09-10 19:39:13 -0400
+Processing by ReservationsController#index as HTML
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:39:14 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 782ms (Views: 742.4ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2017-09-10 19:39:17 -0400
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2017-09-10 19:39:17 -0400
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:39:24 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MrDpU5Jr1cA2/OsZMxu37K2YfGibrrNiwsMTN0dHtjYlq0qQ80bIutwrqGb7KkohOfOlquidVUA6jLsQi0i/Nw==", "user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 13ms (ActiveRecord: 2.1ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MrDpU5Jr1cA2/OsZMxu37K2YfGibrrNiwsMTN0dHtjYlq0qQ80bIutwrqGb7KkohOfOlquidVUA6jLsQi0i/Nw==", "user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 740ms (Views: 538.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:39:28 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r9nsEB4fHkM4ViH0pO/Iv1axeQL+7GOKkWNVWkD2mba4wk/TfzIDOdKBYots3jVywtqgwI3fhahpLP19jPmQtw==", "user"=>{"email"=>"circleline10@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "circleline10@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", "2017-09-10 23:39:29.230536"], ["last_sign_in_at", "2017-09-10 22:47:13.131614"], ["sign_in_count", 4], ["updated_at", "2017-09-10 23:39:29.233303"], ["id", 1]]
+  [1m[35m (4.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 455ms (ActiveRecord: 6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-10 19:39:29 -0400
+Processing by ReservationsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 896ms (Views: 879.5ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-09-10 19:39:33 -0400
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-09-10 19:39:33 -0400
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/devise/shared/_links.erb (2.4ms)
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (61.9ms)
+Completed 200 OK in 516ms (Views: 483.6ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-09-10 19:39:33 -0400
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-09-10 19:39:33 -0400
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/devise/shared/_links.erb (2.6ms)
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (93.9ms)
+Completed 200 OK in 950ms (Views: 948.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-09-10 19:39:36 -0400
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AEtf80whfvjPAWrq9jAVVLX6JQnN3ULHbj8gEYR5HGBsevn8Rxn/fX3EUvOlmrSGUOy0rVK+mATck22Xhs2izQ==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (1.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "admin_users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "admin_users"."id" = $5[0m  [["current_sign_in_at", "2017-09-10 23:39:36.494298"], ["last_sign_in_at", "2017-09-10 20:14:02.792189"], ["sign_in_count", 11], ["updated_at", "2017-09-10 23:39:36.495855"], ["id", 1]]
+  [1m[35m (3.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 277ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-09-10 19:39:36 -0400
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/page/index.html.arb
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/page/index.html.arb (526.3ms)
+Completed 200 OK in 550ms (Views: 540.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:39:39 -0400
+Processing by Admin::ReservationsController#index as HTML
+  [1m[36mAdminUser Load (1.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGolfclub Load (0.9ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (1.6ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (779.5ms)
+Completed 200 OK in 823ms (Views: 781.9ms | ActiveRecord: 31.1ms)
+
+
+Started GET "/admin/reservations/new" for 127.0.0.1 at 2017-09-10 19:39:43 -0400
+Processing by Admin::ReservationsController#new as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.7ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT name, id FROM "users"[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT name, id FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (5.2ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb (643.8ms)
+Completed 200 OK in 724ms (Views: 661.1ms | ActiveRecord: 10.6ms)
+
+
+Started POST "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:39:49 -0400
+Processing by Admin::ReservationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aFM8Q1O7XkCSNXd78JNXhAD/s/ynvYBnOUGq/ZQAvVVe8oc4sZpJeHOeuCWPFSUu/VDJxE7dYgQZeFkqXMOeUg==", "reservation"=>{"user_id"=>"2", "golfclub_id"=>"1", "timeslot_id"=>"1"}, "commit"=>"Create Reservation"}
+  [1m[36mAdminUser Load (1.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mReservation Load (1.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 ORDER BY "timeslots"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "reservations" ("user_id", "golfclub_id", "timeslot_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 1], ["golfclub_id", 1], ["timeslot_id", 1], ["created_at", "2017-09-10 23:39:49.050389"], ["updated_at", "2017-09-10 23:39:49.050389"]]
+  [1m[35m (3.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "timeslots" SET "available" = $1, "user_id" = $2, "updated_at" = $3 WHERE "timeslots"."id" = $4[0m  [["available", "f"], ["user_id", 1], ["updated_at", "2017-09-10 23:39:49.066058"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (597.7ms)
+Completed 200 OK in 671ms (Views: 621.1ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/admin/reservations.csv" for 127.0.0.1 at 2017-09-10 19:39:51 -0400
+Processing by Admin::ReservationsController#index as CSV
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 1000], ["OFFSET", 0]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 18ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/admin/reservations.json" for 127.0.0.1 at 2017-09-10 19:39:53 -0400
+Processing by Admin::ReservationsController#index as JSON
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+Completed 200 OK in 103ms (Views: 2.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/admin/reservations.csv" for 127.0.0.1 at 2017-09-10 19:40:36 -0400
+Processing by Admin::ReservationsController#index as CSV
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 1000], ["OFFSET", 0]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 122ms (ActiveRecord: 20.0ms)
+
+
+Started GET "/admin/users/1" for 127.0.0.1 at 2017-09-10 19:40:51 -0400
+Processing by Admin::UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/show.html.arb
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = $1 AND "active_admin_comments"."resource_id" = 1 AND "active_admin_comments"."namespace" = $2[0m  [["resource_type", "User"], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = $1 AND "active_admin_comments"."resource_id" = 1 AND "active_admin_comments"."namespace" = $2 LIMIT $3[0m  [["resource_type", "User"], ["namespace", "admin"], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/show.html.arb (659.1ms)
+Completed 200 OK in 700ms (Views: 678.1ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2017-09-10 19:40:55 -0400
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (836.8ms)
+Completed 200 OK in 878ms (Views: 861.7ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:40:57 -0400
+Processing by Admin::ReservationsController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (8.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (0.9ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (700.3ms)
+Completed 200 OK in 741ms (Views: 712.1ms | ActiveRecord: 24.4ms)
+
+
+Started GET "/admin/reservations/new" for 127.0.0.1 at 2017-09-10 19:41:00 -0400
+Processing by Admin::ReservationsController#new as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT name, id FROM "users"[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT name, id FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.9ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb (695.0ms)
+Completed 200 OK in 771ms (Views: 726.3ms | ActiveRecord: 4.5ms)
+
+
+Started POST "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:41:08 -0400
+Processing by Admin::ReservationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7d1EevaPTtvboJKq5vNk+hoZ8heR00NWpfXKUIcO6fjbfP8BFK5Z4zoLXfSZdRZQ57aIL3izoTWFzDmHT83K/w==", "reservation"=>{"user_id"=>"2", "golfclub_id"=>"2", "timeslot_id"=>"6"}, "commit"=>"Create Reservation"}
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 ORDER BY "timeslots"."id" ASC LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "reservations" ("user_id", "golfclub_id", "timeslot_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 1], ["golfclub_id", 2], ["timeslot_id", 6], ["created_at", "2017-09-10 23:41:08.327892"], ["updated_at", "2017-09-10 23:41:08.327892"]]
+  [1m[35m (3.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTimeslot Load (0.8ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "timeslots" SET "available" = $1, "user_id" = $2, "updated_at" = $3 WHERE "timeslots"."id" = $4[0m  [["available", "f"], ["user_id", 1], ["updated_at", "2017-09-10 23:41:08.340764"], ["id", 6]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (3.4ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (6.2ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (447.8ms)
+Completed 200 OK in 517ms (Views: 459.8ms | ActiveRecord: 24.2ms)
+
+
+Started GET "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:41:43 -0400
+Processing by Admin::ReservationsController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (4.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (887.7ms)
+Completed 200 OK in 971ms (Views: 872.8ms | ActiveRecord: 53.7ms)
+
+
+Started GET "/admin/reservations/new" for 127.0.0.1 at 2017-09-10 19:41:46 -0400
+Processing by Admin::ReservationsController#new as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT name, id FROM "users"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT name, id FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.8ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb (651.9ms)
+Completed 200 OK in 710ms (Views: 673.5ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:41:53 -0400
+Processing by Admin::ReservationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ezy4FbJt3/SXF+U9jvQDmXVwU87VqZl1SCRMEVnjM49NnQNuUEzIzHa8KmPxcnEziN8p9jzJexZoHb/GkSAQiA==", "reservation"=>{"user_id"=>"1", "golfclub_id"=>"2", "timeslot_id"=>"6"}, "commit"=>"Create Reservation"}
+  [1m[36mAdminUser Load (1.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Timeslot Load (0.0ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 ORDER BY "timeslots"."id" ASC LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT name, id FROM "users"[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT name, id FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (3.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb (638.0ms)
+Completed 200 OK in 700ms (Views: 659.1ms | ActiveRecord: 14.0ms)
+
+
+Started POST "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:41:58 -0400
+Processing by Admin::ReservationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Xab5Jo5BR3XD9eYiqaCighVfrURCys7QLutmZKHSvMVrB0JdbGBQTSJeKXzWJtAo6PDXfKuqLLMO0pWzaRGfwg==", "reservation"=>{"user_id"=>"1", "golfclub_id"=>"3", "timeslot_id"=>"7"}, "commit"=>"Create Reservation"}
+  [1m[36mAdminUser Load (1.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 ORDER BY "timeslots"."id" ASC LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "reservations" ("user_id", "golfclub_id", "timeslot_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 1], ["golfclub_id", 3], ["timeslot_id", 7], ["created_at", "2017-09-10 23:41:58.254706"], ["updated_at", "2017-09-10 23:41:58.254706"]]
+  [1m[35m (3.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "timeslots" SET "available" = $1, "user_id" = $2, "updated_at" = $3 WHERE "timeslots"."id" = $4[0m  [["available", "f"], ["user_id", 1], ["updated_at", "2017-09-10 23:41:58.267119"], ["id", 7]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (2.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (632.0ms)
+Completed 200 OK in 701ms (Views: 649.7ms | ActiveRecord: 20.2ms)
+
+
+Started POST "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:42:54 -0400
+Processing by Admin::ReservationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Xab5Jo5BR3XD9eYiqaCighVfrURCys7QLutmZKHSvMVrB0JdbGBQTSJeKXzWJtAo6PDXfKuqLLMO0pWzaRGfwg==", "reservation"=>{"user_id"=>"1", "golfclub_id"=>"3", "timeslot_id"=>"7"}, "commit"=>"Create Reservation"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mCACHE Timeslot Load (0.0ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 ORDER BY "timeslots"."id" ASC LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT name, id FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (3.4ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.7ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb (494.7ms)
+Completed 200 OK in 675ms (Views: 515.7ms | ActiveRecord: 31.9ms)
+
+
+Started POST "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:43:02 -0400
+Processing by Admin::ReservationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w2Ym9zQo7FaLSxEwFxdZnCAYy6cCmSqNMVV/xaPHxTL1x52M1gn7bmrg3m5okSs23bexn+v5yO4RbIwSawTmNQ==", "reservation"=>{"user_id"=>"2", "golfclub_id"=>"1", "timeslot_id"=>"5"}, "commit"=>"Create Reservation"}
+  [1m[36mAdminUser Load (1.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mReservation Load (2.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.7ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 ORDER BY "timeslots"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "reservations" ("user_id", "golfclub_id", "timeslot_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 1], ["golfclub_id", 1], ["timeslot_id", 5], ["created_at", "2017-09-10 23:43:02.196962"], ["updated_at", "2017-09-10 23:43:02.196962"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "timeslots" SET "available" = $1, "user_id" = $2, "updated_at" = $3 WHERE "timeslots"."id" = $4[0m  [["available", "f"], ["user_id", 1], ["updated_at", "2017-09-10 23:43:02.206683"], ["id", 5]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (3.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (574.5ms)
+Completed 200 OK in 650ms (Views: 592.1ms | ActiveRecord: 18.4ms)
+
+
+Started GET "/admin/users/1" for 127.0.0.1 at 2017-09-10 19:43:08 -0400
+Processing by Admin::UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/show.html.arb
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = $1 AND "active_admin_comments"."resource_id" = 1 AND "active_admin_comments"."namespace" = $2[0m  [["resource_type", "User"], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = $1 AND "active_admin_comments"."resource_id" = 1 AND "active_admin_comments"."namespace" = $2 LIMIT $3[0m  [["resource_type", "User"], ["namespace", "admin"], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/show.html.arb (518.5ms)
+Completed 200 OK in 556ms (Views: 547.3ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2017-09-10 19:43:11 -0400
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (4.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mTimeslot Load (0.7ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (676.8ms)
+Completed 200 OK in 714ms (Views: 697.9ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:43:14 -0400
+Processing by Admin::ReservationsController#index as HTML
+  [1m[36mAdminUser Load (1.0ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (1.1ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (913.6ms)
+Completed 200 OK in 956ms (Views: 940.8ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:44:19 -0400
+Processing by Admin::ReservationsController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (952.5ms)
+Completed 200 OK in 1034ms (Views: 958.1ms | ActiveRecord: 30.4ms)
+
+
+Started GET "/admin/reservations/new" for 127.0.0.1 at 2017-09-10 19:44:23 -0400
+Processing by Admin::ReservationsController#new as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT name, id FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (4.0ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  [1m[36mGolfclub Load (0.9ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb (640.8ms)
+Completed 200 OK in 710ms (Views: 654.2ms | ActiveRecord: 14.2ms)
+
+
+Started GET "/admin/reservations/new" for 127.0.0.1 at 2017-09-10 19:44:30 -0400
+Processing by Admin::ReservationsController#new as HTML
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT name, id FROM "users"[0m
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT name, id FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb (635.6ms)
+Completed 200 OK in 787ms (Views: 649.7ms | ActiveRecord: 31.2ms)
+
+
+Started POST "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:44:38 -0400
+Processing by Admin::ReservationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eForJebbCu/BSW3CyzPtl5O/KJrd6VfczHbvxHeM6ElO+5BeBPod1yDiopy0tZ89bhBSojSJtb/sTxwTv0/LTg==", "reservation"=>{"user_id"=>"2", "golfclub_id"=>"1", "timeslot_id"=>"1"}, "commit"=>"Create Reservation"}
+  [1m[36mAdminUser Load (2.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.8ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mReservation Load (2.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mCACHE Timeslot Load (0.0ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (2.1ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 ORDER BY "timeslots"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT name, id FROM "users"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT name, id FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (3.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb (922.3ms)
+Completed 200 OK in 1080ms (Views: 958.2ms | ActiveRecord: 21.0ms)
+
+
+Started POST "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:44:43 -0400
+Processing by Admin::ReservationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gXjmeoGvPajnPmitU5vWDLWvsYSVP0fjWJR2aro4vTS32V0BY44qkAaVp/MsHaSmSADLvHxfpYB4rYW9cvueMw==", "reservation"=>{"user_id"=>"1", "golfclub_id"=>"1", "timeslot_id"=>"5"}, "commit"=>"Create Reservation"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mTimeslot Load (0.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE Timeslot Load (0.0ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 ORDER BY "timeslots"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT name, id FROM "users"[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT name, id FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (3.7ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb (460.5ms)
+Completed 200 OK in 517ms (Views: 481.1ms | ActiveRecord: 11.5ms)
+
+
+Started POST "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:44:49 -0400
+Processing by Admin::ReservationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"da4SQRlClzm+WqwEmfkhjWi+QOPz8BEZj6S8BfsmGnlDD6k6+2OAAV/xY1rmf1MnlRE62xqQ83qvnU/SM+U5fg==", "reservation"=>{"user_id"=>"1", "golfclub_id"=>"1", "timeslot_id"=>"6"}, "commit"=>"Create Reservation"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mTimeslot Load (0.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Timeslot Load (0.0ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (1.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 ORDER BY "timeslots"."id" ASC LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.9ms)[0m  [1m[31mROLLBACK[0m
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT name, id FROM "users"[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT name, id FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (6.8ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  [1m[36mGolfclub Load (0.8ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb (697.6ms)
+Completed 500 Internal Server Error in 759ms (Views: 718.5ms | ActiveRecord: 15.8ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/admin/reservation.rb:58:in `create'
+Started GET "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:44:54 -0400
+Processing by Admin::ReservationsController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.8ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (792.1ms)
+Completed 200 OK in 828ms (Views: 813.1ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:45:29 -0400
+Processing by Admin::ReservationsController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (1.4ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (1481.0ms)
+Completed 200 OK in 1587ms (Views: 1485.2ms | ActiveRecord: 35.7ms)
+
+
+Started GET "/admin/reservations/new" for 127.0.0.1 at 2017-09-10 19:45:32 -0400
+Processing by Admin::ReservationsController#new as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.7ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT name, id FROM "users"[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT name, id FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb (661.1ms)
+Completed 200 OK in 730ms (Views: 686.2ms | ActiveRecord: 3.9ms)
+
+
+Started POST "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:45:40 -0400
+Processing by Admin::ReservationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BeXpxEPYD+OvNSKrk7HlIHWXpMh/85efhr6mdYHrXm8zRFK/ofkY206e7fXsN5eKiDje8JaTdfymh1WiSSh9aA==", "reservation"=>{"user_id"=>"2", "golfclub_id"=>"1", "timeslot_id"=>"3"}, "commit"=>"Create Reservation"}
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 ORDER BY "timeslots"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "reservations" ("user_id", "golfclub_id", "timeslot_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 1], ["golfclub_id", 1], ["timeslot_id", 3], ["created_at", "2017-09-10 23:45:40.219978"], ["updated_at", "2017-09-10 23:45:40.219978"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTimeslot Load (0.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "timeslots" SET "available" = $1, "user_id" = $2, "updated_at" = $3 WHERE "timeslots"."id" = $4[0m  [["available", "f"], ["user_id", 1], ["updated_at", "2017-09-10 23:45:40.229677"], ["id", 3]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.9ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (1.8ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (699.6ms)
+Completed 200 OK in 779ms (Views: 719.3ms | ActiveRecord: 18.9ms)
+
+
+Started DELETE "/admin/reservations/26" for 127.0.0.1 at 2017-09-10 19:45:44 -0400
+Processing by Admin::ReservationsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"uJkCe/x9MlNufiuJW+VsBZ8zuqCuOlYiDexA0SDNLTeOOLkAHlwla4/V5NckYx6vYpzAmEdatEEt1bMG6A4OMA==", "id"=>"26"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "timeslots" SET "available" = $1, "user_id" = $2, "updated_at" = $3 WHERE "timeslots"."id" = $4[0m  [["available", "t"], ["user_id", nil], ["updated_at", "2017-09-10 23:45:44.115306"], ["id", 3]]
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = $1[0m  [["id", 26]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (10.5ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (14.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (8.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (2.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (793.8ms)
+Completed 200 OK in 840ms (Views: 781.1ms | ActiveRecord: 46.0ms)
+
+
+Started POST "/admin/reservations/batch_action" for 127.0.0.1 at 2017-09-10 19:45:51 -0400
+Processing by Admin::ReservationsController#batch_action as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rYSZMIxjJtstsaYBelIS61J0axqWsM6//0IXLDwjNM2bJSJLbkIx48waaV8F1GBBr9sRIn/QLNzfe+T79OAXyg==", "batch_action"=>"destroy", "batch_action_inputs"=>"{}", "collection_selection_toggle_all"=>"on", "collection_selection"=>["25", "24", "23", "22"]}
+  [1m[36mAdminUser Load (5.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mReservation Load (4.0ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" IN (25, 24, 23, 22)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (5.6ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = $1[0m  [["id", 25]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = $1[0m  [["id", 24]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (9.4ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = $1[0m  [["id", 23]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = $1[0m  [["id", 22]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/reservations
+Completed 302 Found in 97ms (ActiveRecord: 29.8ms)
+
+
+Started GET "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:45:51 -0400
+Processing by Admin::ReservationsController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (790.7ms)
+Completed 200 OK in 828ms (Views: 817.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/admin/timeslots" for 127.0.0.1 at 2017-09-10 19:45:52 -0400
+Processing by Admin::TimeslotsController#index as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (19.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "timeslots"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mTimeslot Load (0.9ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (1107.0ms)
+Completed 200 OK in 1167ms (Views: 1115.3ms | ActiveRecord: 24.5ms)
+
+
+Started GET "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:46:04 -0400
+Processing by Admin::ReservationsController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (600.3ms)
+Completed 200 OK in 635ms (Views: 627.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/admin/timeslots" for 127.0.0.1 at 2017-09-10 19:46:05 -0400
+Processing by Admin::TimeslotsController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "timeslots"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mGolfclub Load (1.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.8ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (1.7ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (854.2ms)
+Completed 200 OK in 902ms (Views: 878.7ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:46:07 -0400
+Processing by Admin::ReservationsController#index as HTML
+  [1m[36mAdminUser Load (2.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.7ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (584.9ms)
+Completed 200 OK in 623ms (Views: 612.3ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/admin/timeslots" for 127.0.0.1 at 2017-09-10 19:46:10 -0400
+Processing by Admin::TimeslotsController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "timeslots"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mTimeslot Load (1.1ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (863.4ms)
+Completed 200 OK in 901ms (Views: 889.2ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/admin/timeslots/7/edit" for 127.0.0.1 at 2017-09-10 19:46:12 -0400
+Processing by Admin::TimeslotsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Timeslot Load (9.7ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/edit.html.arb (469.7ms)
+Completed 200 OK in 513ms (Views: 495.2ms | ActiveRecord: 13.0ms)
+
+
+Started PATCH "/admin/timeslots/7" for 127.0.0.1 at 2017-09-10 19:46:18 -0400
+Processing by Admin::TimeslotsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qsQTRdGhQGQqREkW2CQxs7q7VMUzZbflgY7QL1+GUZCcZag+M4BXXMvvhkinokMZRxQu/doFVYahtyP4l0Vylw==", "timeslot"=>{"golfclub_id"=>"3", "user_id"=>"", "title"=>"15:00-15:20", "available"=>"1"}, "commit"=>"Update Timeslot", "id"=>"7"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (2.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (1.4ms)[0m  [1m[33mUPDATE "timeslots" SET "available" = $1, "user_id" = $2, "updated_at" = $3 WHERE "timeslots"."id" = $4[0m  [["available", "t"], ["user_id", nil], ["updated_at", "2017-09-10 23:46:18.856923"], ["id", 7]]
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/timeslots/7
+Completed 302 Found in 98ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/admin/timeslots/7" for 127.0.0.1 at 2017-09-10 19:46:18 -0400
+Processing by Admin::TimeslotsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/show.html.arb
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (5.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = $1 AND "active_admin_comments"."resource_id" = 7 AND "active_admin_comments"."namespace" = $2[0m  [["resource_type", "Timeslot"], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = $1 AND "active_admin_comments"."resource_id" = 7 AND "active_admin_comments"."namespace" = $2 LIMIT $3[0m  [["resource_type", "Timeslot"], ["namespace", "admin"], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/show.html.arb (646.9ms)
+Completed 200 OK in 677ms (Views: 665.6ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/admin/timeslots" for 127.0.0.1 at 2017-09-10 19:46:21 -0400
+Processing by Admin::TimeslotsController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "timeslots"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (878.9ms)
+Completed 200 OK in 922ms (Views: 903.3ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/admin/timeslots/6/edit" for 127.0.0.1 at 2017-09-10 19:46:24 -0400
+Processing by Admin::TimeslotsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Timeslot Load (0.0ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/edit.html.arb (415.1ms)
+Completed 200 OK in 462ms (Views: 455.0ms | ActiveRecord: 2.5ms)
+
+
+Started PATCH "/admin/timeslots/6" for 127.0.0.1 at 2017-09-10 19:46:31 -0400
+Processing by Admin::TimeslotsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PeColiu041l0SXub3uP2CAz9rO+k9PVSG01t6gSDaBgLQRPtyZX0YZXitMWhZYSi8VLW102UFzE7dJ49zEBLHw==", "timeslot"=>{"golfclub_id"=>"2", "user_id"=>"", "title"=>"12:00-13:00", "available"=>"1"}, "commit"=>"Update Timeslot", "id"=>"6"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.9ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "timeslots" SET "available" = $1, "user_id" = $2, "updated_at" = $3 WHERE "timeslots"."id" = $4[0m  [["available", "t"], ["user_id", nil], ["updated_at", "2017-09-10 23:46:31.109829"], ["id", 6]]
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/timeslots/6
+Completed 302 Found in 137ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/admin/timeslots/6" for 127.0.0.1 at 2017-09-10 19:46:31 -0400
+Processing by Admin::TimeslotsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mAdminUser Load (1.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/show.html.arb
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = $1 AND "active_admin_comments"."resource_id" = 6 AND "active_admin_comments"."namespace" = $2[0m  [["resource_type", "Timeslot"], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = $1 AND "active_admin_comments"."resource_id" = 6 AND "active_admin_comments"."namespace" = $2 LIMIT $3[0m  [["resource_type", "Timeslot"], ["namespace", "admin"], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/show.html.arb (558.6ms)
+Completed 200 OK in 618ms (Views: 584.1ms | ActiveRecord: 16.1ms)
+
+
+Started GET "/admin/timeslots" for 127.0.0.1 at 2017-09-10 19:46:32 -0400
+Processing by Admin::TimeslotsController#index as HTML
+  [1m[36mAdminUser Load (1.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "timeslots"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mGolfclub Load (11.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.7ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.7ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (881.1ms)
+Completed 200 OK in 928ms (Views: 892.6ms | ActiveRecord: 19.8ms)
+
+
+Started GET "/admin/timeslots/5/edit" for 127.0.0.1 at 2017-09-10 19:46:35 -0400
+Processing by Admin::TimeslotsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Timeslot Load (0.0ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/edit.html.arb (726.7ms)
+Completed 200 OK in 771ms (Views: 763.1ms | ActiveRecord: 3.3ms)
+
+
+Started PATCH "/admin/timeslots/5" for 127.0.0.1 at 2017-09-10 19:46:41 -0400
+Processing by Admin::TimeslotsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5f7/G3f0INSNvuJWMSYlHlQx3iCyHrCvaJjC+gThMkvTX0RgldU37GwVLQhOoFe0qZ6kGFt+UsxIoTEtzCIRTA==", "timeslot"=>{"golfclub_id"=>"1", "user_id"=>"", "title"=>"10:20-10:40", "available"=>"1"}, "commit"=>"Update Timeslot", "id"=>"5"}
+  [1m[36mAdminUser Load (1.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (1.4ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (4.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "timeslots" SET "available" = $1, "user_id" = $2, "updated_at" = $3 WHERE "timeslots"."id" = $4[0m  [["available", "t"], ["user_id", nil], ["updated_at", "2017-09-10 23:46:41.231741"], ["id", 5]]
+  [1m[35m (3.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/timeslots/5
+Completed 302 Found in 103ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/admin/timeslots/5" for 127.0.0.1 at 2017-09-10 19:46:41 -0400
+Processing by Admin::TimeslotsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/show.html.arb
+  [1m[36mGolfclub Load (4.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = $1 AND "active_admin_comments"."resource_id" = 5 AND "active_admin_comments"."namespace" = $2[0m  [["resource_type", "Timeslot"], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = $1 AND "active_admin_comments"."resource_id" = 5 AND "active_admin_comments"."namespace" = $2 LIMIT $3[0m  [["resource_type", "Timeslot"], ["namespace", "admin"], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/show.html.arb (679.8ms)
+Completed 200 OK in 712ms (Views: 700.0ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/admin/timeslots" for 127.0.0.1 at 2017-09-10 19:46:43 -0400
+Processing by Admin::TimeslotsController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "timeslots"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (2.2ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (837.8ms)
+Completed 200 OK in 874ms (Views: 858.2ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/admin/timeslots/1/edit" for 127.0.0.1 at 2017-09-10 19:46:46 -0400
+Processing by Admin::TimeslotsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (1.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Timeslot Load (0.0ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (4.3ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mGolfclub Load (3.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/edit.html.arb (783.6ms)
+Completed 200 OK in 828ms (Views: 812.7ms | ActiveRecord: 10.3ms)
+
+
+Started PATCH "/admin/timeslots/1" for 127.0.0.1 at 2017-09-10 19:46:49 -0400
+Processing by Admin::TimeslotsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0pC/Dw//C1k1TClDmEag3qjcfR0IbJqv6Tqoqu3kqZPkMQR07d4cYdTn5h3nwNJ0VXMHJeEMeMzJA1t9JSeKlA==", "timeslot"=>{"golfclub_id"=>"1", "user_id"=>"", "title"=>"9:00-9:20", "available"=>"1"}, "commit"=>"Update Timeslot", "id"=>"1"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (1.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "timeslots" SET "available" = $1, "user_id" = $2, "updated_at" = $3 WHERE "timeslots"."id" = $4[0m  [["available", "t"], ["user_id", nil], ["updated_at", "2017-09-10 23:46:49.903707"], ["id", 1]]
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/timeslots/1
+Completed 302 Found in 100ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/admin/timeslots/1" for 127.0.0.1 at 2017-09-10 19:46:49 -0400
+Processing by Admin::TimeslotsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/show.html.arb
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = $1 AND "active_admin_comments"."resource_id" = 1 AND "active_admin_comments"."namespace" = $2[0m  [["resource_type", "Timeslot"], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = $1 AND "active_admin_comments"."resource_id" = 1 AND "active_admin_comments"."namespace" = $2 LIMIT $3[0m  [["resource_type", "Timeslot"], ["namespace", "admin"], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/show.html.arb (514.6ms)
+Completed 200 OK in 547ms (Views: 539.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/admin/timeslots" for 127.0.0.1 at 2017-09-10 19:46:52 -0400
+Processing by Admin::TimeslotsController#index as HTML
+  [1m[36mAdminUser Load (2.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "timeslots"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "timeslots" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (678.2ms)
+Completed 200 OK in 717ms (Views: 700.4ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:46:55 -0400
+Processing by Admin::ReservationsController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGolfclub Load (0.6ms)[0m  [1m[34mSELECT "golfclubs".* FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (508.5ms)
+Completed 200 OK in 550ms (Views: 535.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/admin/reservations/new" for 127.0.0.1 at 2017-09-10 19:46:58 -0400
+Processing by Admin::ReservationsController#new as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" ORDER BY "timeslots"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT name, id FROM "users"[0m
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT name, id FROM "golfclubs"[0m
+  [1m[36mTimeslot Load (0.6ms)[0m  [1m[34mSELECT "timeslots".* FROM "timeslots"[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE Golfclub Load (0.0ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/new.html.arb (536.4ms)
+Completed 200 OK in 600ms (Views: 556.7ms | ActiveRecord: 6.0ms)
+
+
+Started POST "/admin/reservations" for 127.0.0.1 at 2017-09-10 19:47:03 -0400
+Processing by Admin::ReservationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jzZI3BZ3hczw3Kwi4A8CxRc7D0pQmIF0Vy0q9GcQHy65l/On9FaS9BF3Y3yfiXBv6pR1crn4Yxd3FNkjr9M8KQ==", "reservation"=>{"user_id"=>"2", "golfclub_id"=>"1", "timeslot_id"=>"1"}, "commit"=>"Create Reservation"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.4ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mTimeslot Load (0.5ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 ORDER BY "timeslots"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "reservations" ("user_id", "golfclub_id", "timeslot_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 1], ["golfclub_id", 1], ["timeslot_id", 1], ["created_at", "2017-09-10 23:47:03.559272"], ["updated_at", "2017-09-10 23:47:03.559272"]]
+  [1m[35m (3.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTimeslot Load (0.3ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "timeslots" SET "available" = $1, "user_id" = $2, "updated_at" = $3 WHERE "timeslots"."id" = $4[0m  [["available", "f"], ["user_id", 1], ["updated_at", "2017-09-10 23:47:03.571067"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "reservations"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reservations" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" ORDER BY "reservations"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.5ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.9ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /Users/abhin/.rvm/gems/ruby-2.3.1/gems/activeadmin-1.0.0/app/views/active_admin/resource/index.html.arb (442.2ms)
+Completed 200 OK in 511ms (Views: 464.0ms | ActiveRecord: 14.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-10 19:47:29 -0400
+Processing by ReservationsController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mGolfclub Load (0.3ms)[0m  [1m[34mSELECT  "golfclubs".* FROM "golfclubs" WHERE "golfclubs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTimeslot Load (0.2ms)[0m  [1m[34mSELECT  "timeslots".* FROM "timeslots" WHERE "timeslots"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered reservations/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 660ms (Views: 649.4ms | ActiveRecord: 2.2ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2017-09-10 19:47:36 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CpJd/fBa5cJni5XFmKGyxnIc4lMwGNoEvUBM6rTwhW08M+aGEnvy+oYgWpvnJ8Bsj7OYa9l4OGedeb89fDOmag=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 18ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-10 19:47:36 -0400
+Processing by ReservationsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-10 19:47:36 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 804ms (Views: 802.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2017-09-10 19:47:39 -0400
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2017-09-10 19:47:39 -0400

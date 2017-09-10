@@ -20,10 +20,15 @@ form do |f|
 
     f.input :timeslot_id, :label => 'Timeslot', :as => :select, :collection => Timeslot.all.sort.map{|u| ["#{u.golfclub.name}, #{u.title}", u.id]}
 
-    f.semantic_errors
-
   end
   f.actions
+end
+
+csv do
+  column :user_id
+  column(:user) { |p| p.user.name }
+  column(:timeslot) {|p| p.timeslot.title} # preserve case
+  column(:golfclub) {|p| p.golfclub.name}
 end
 
 ActiveAdmin.register Reservation do

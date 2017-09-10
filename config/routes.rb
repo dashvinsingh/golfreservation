@@ -8,5 +8,7 @@ Rails.application.routes.draw do
 
   root to: 'reservations#index'
   get 'update_timeslots' => 'reservations#update_timeslots', as: 'update_timeslots'
+
+  get 'sign_in' => 'users#sign_in'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
