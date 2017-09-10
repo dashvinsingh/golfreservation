@@ -8,7 +8,7 @@ class ReservationsController < ApplicationController
 	def new
 		@reservation = Reservation.new
 		@golfclub = Golfclub.find(params[:id])
-	    @timeslots = Timeslot.where("golfclub_id = ?", @golfclub.id)
+    @timeslots = Timeslot.where("golfclub_id = ?", @golfclub.id)
 	end
 
 	def show
@@ -54,7 +54,8 @@ class ReservationsController < ApplicationController
 	private
 		def reservation_params
 	      params.require(:reservation).permit(:id, :golfclub_id, :timeslot_id, :user_id)
-	  	end
+  	end
+
 
 
 end

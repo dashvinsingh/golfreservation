@@ -1,8 +1,8 @@
 class Reservation < ApplicationRecord
-	belongs_to :user, optional: true
+	belongs_to :user
 	belongs_to :golfclub
 	belongs_to :timeslot
-	validate :check_empty, :check_availablity, :check_multiple
+	validate :check_empty, :check_availablity, :check_multiple, :check_golfclub_id
 
 	private
 		def check_empty
@@ -23,6 +23,13 @@ class Reservation < ApplicationRecord
 				time = Timeslot.find(item.timeslot_id)
 				if time.title == timeslot.title
 					errors.add(:overlap, message: 'overlap')
+				end
+			end
+
+			def check_golfclub_id
+				time = Timeslot.where({id: timeslot_id}).first
+				if golfclub_id != time.golfclub_id
+					errors.add(:golfclub, message: "incorrect")
 				end
 			end
 		end
