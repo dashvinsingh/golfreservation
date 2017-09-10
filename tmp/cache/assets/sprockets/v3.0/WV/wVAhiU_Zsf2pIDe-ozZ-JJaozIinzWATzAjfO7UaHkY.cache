@@ -1,5 +1,0 @@
-I"A(function() {
-  $(".alert").alert('close');
-
-}).call(this);
-:ET

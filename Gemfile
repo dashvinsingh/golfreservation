@@ -16,10 +16,6 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'devise-bootstrap-views'
 gem "animate-rails"
-gem 'blazer'
-gem 'bootstrap-datepicker-rails', :require => 'bootstrap-datepicker-rails',
-                              :git => 'git://github.com/Nerian/bootstrap-datepicker-rails.git'
-
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets

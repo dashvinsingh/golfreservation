@@ -8,7 +8,7 @@
 <h1 class="animated zoomIn">Reservation Successful!</h1>
 <div id='othertext' class="animated zoomIn">
 <h4 class="alert alert-info">Reservation #: <%= @reservation.id %> 
-<br>Date: <%= @reservation.date %>
+
 <br>Club: <%= @reservation.golfclub.name %>
 <br>Time: <%= @reservation.timeslot.title %></h4>
 <%= link_to 'Go Back', reservations_path,  class: 'btn btn-lg btn-danger'%>

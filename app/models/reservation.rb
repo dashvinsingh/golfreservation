@@ -1,7 +1,7 @@
 class Reservation < ApplicationRecord
 	belongs_to :user, optional: true
 	belongs_to :golfclub
-	belongs_to :timeslot, optional: true
+	belongs_to :timeslot
 	validate :check_empty, :check_availablity, :check_multiple
 
 	private
@@ -11,8 +11,7 @@ class Reservation < ApplicationRecord
 				end
 		end
 		def check_availablity
-			if reservation.date in Reservation.where({date: reservation.date})
-				if reservation.timeslot in Reservation.where({})
+			if timeslot && timeslot.available != true
 				errors.add(:timeslot, message: 'error')
 				end
 		end

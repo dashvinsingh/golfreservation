@@ -5,7 +5,6 @@ class CreateReservations < ActiveRecord::Migration[5.1]
     	t.integer :user_id
     	t.integer :golfclub_id
     	t.integer :timeslot_id
-    	t.date  :date
 
       t.timestamps
     end

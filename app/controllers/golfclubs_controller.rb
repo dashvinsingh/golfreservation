@@ -9,7 +9,7 @@ class GolfclubsController < ApplicationController
   end
 
   def show
-    @reservation = Reservation.new
+    @reservation = Reservation.new()
   	@golfclub = Golfclub.find(params[:id])
   	@times = @golfclub.timeslots.all
     # @timeslots = Timeslot.where("golfclub_id = ?", @golfclub.id)

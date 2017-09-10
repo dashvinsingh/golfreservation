@@ -8,18 +8,11 @@
 
 <hr>
 
-
-<%= form_for @reservation do |f| %>
-
-
-
-   <h3 style='color:navy'>Select Date: 
-  </h3>
-  <p><%= f.text_field :date, "data-provide" => 'datepicker' %></p>
-
-
 <h3 style='color:navy'>Select timeslot: 
 </h3>
+<!-- <p>Club Name: <%= @golfclub.name %></p>
+ -->
+<%= form_for @reservation do |f| %>
 
 <%if params[:error] == 'true' %>
   <div class="alert alert-danger alert-dismissable fade in" style='margin-left:2px'>
@@ -31,11 +24,9 @@
   <%if params[:error] == 'overlap' %>
   <div class="alert alert-danger alert-dismissable fade in" style='margin-left:2px'>
     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-    <strong>Overlap Error!</strong> You already reserved this timeslot for another golfclub. Please select another one.
+    <strong>Overlap Error!</strong> You already reserved this timeslot for another golfclub. Please Select another one.
   </div>
   <%end%>
-
-
 
 <p><%= f.select :timeslot_id, options_for_select(@timeslots.sort.collect { |x|
     [x.title, x.id] }, 0),{:include_blank => "Select One"}, { id: 'timeslots_select', class: 'btn btn-info btn-lg dropdown-toggle'}%>
@@ -45,12 +36,6 @@
 	<%= f.select :golfclub_id, options_for_select(@golfclubs.sort.collect { |x|
     [x.name, x.id] }, @golfclub.id), { id: 'golfclubs_select' }, {:hidden=>true} %>
 	<%= f.hidden_field :golfclub_id, :value => @golfclub.id %>	</p>
-
-
-
-
-
-
 	<p>
 		<%= f.submit "Make Reservation", class: "btn btn-primary btn-lg",  data: { confirm: 'Are you sure?'}%>
 	</p>

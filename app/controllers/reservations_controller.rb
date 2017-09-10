@@ -21,9 +21,9 @@ class ReservationsController < ApplicationController
 		@reservation.user = current_user
 		if @reservation.save
 			@timeslot = Timeslot.find(@reservation.timeslot_id)
-			# @timeslot.available = false
-			# @timeslot.user = current_user
-			# @timeslot.save
+			@timeslot.available = false
+			@timeslot.user = current_user
+			@timeslot.save
 			render 'show'
 
 		else
@@ -53,7 +53,7 @@ class ReservationsController < ApplicationController
 
 	private
 		def reservation_params
-	      params.require(:reservation).permit(:id, :golfclub_id, :timeslot_id, :user_id, :date)
+	      params.require(:reservation).permit(:id, :golfclub_id, :timeslot_id, :user_id)
 	  	end
 
 
