@@ -32535,3 +32535,11 @@ Processing by MathnasiumController#index as HTML
 Completed 200 OK in 2632ms (Views: 2626.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-16 18:27:59 -0400
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (3068.6ms)
+Completed 200 OK in 5509ms (Views: 5453.4ms | ActiveRecord: 0.0ms)
+
+
