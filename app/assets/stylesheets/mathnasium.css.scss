@@ -1,0 +1,25 @@
+// Place all the styles related to the mathnasium controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+#firstdiv {
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #fff;
+  height: 180px;
+
+}
+#firstdiv img {
+  width: 45%;
+}
+
+#seconddiv {
+  background-color: #e8352f;
+  height: 350px;
+  text-align: center;
+}

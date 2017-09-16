@@ -1,0 +1,2 @@
+module MathnasiumHelper
+end

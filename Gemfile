@@ -16,6 +16,7 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'devise-bootstrap-views'
 gem "animate-rails"
+gem 'slim-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
