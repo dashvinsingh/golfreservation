@@ -32543,3 +32543,2518 @@ Processing by MathnasiumController#index as HTML
 Completed 200 OK in 5509ms (Views: 5453.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-09-17 11:17:55 -0400
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReservationsController#index as HTML
+Completed 401 Unauthorized in 134ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-17 11:17:56 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (8.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (128.8ms)
+Completed 200 OK in 5976ms (Views: 5765.3ms | ActiveRecord: 156.5ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:18:07 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (106.6ms)
+Completed 200 OK in 1902ms (Views: 1888.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:19:00 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (466.6ms)
+Completed 200 OK in 2227ms (Views: 2210.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:19:13 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (289.9ms)
+Completed 200 OK in 2223ms (Views: 2215.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:19:25 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (261.7ms)
+Completed 200 OK in 1945ms (Views: 1937.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:20:26 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (15.7ms)
+Completed 200 OK in 2136ms (Views: 2129.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:44:34 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (43.8ms)
+Completed 200 OK in 2149ms (Views: 2138.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:45:25 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (293.2ms)
+Completed 200 OK in 2616ms (Views: 2611.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:45:37 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (63.7ms)
+Completed 200 OK in 2246ms (Views: 2238.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:45:44 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (55.6ms)
+Completed 200 OK in 2010ms (Views: 2005.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:45:51 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (314.8ms)
+Completed 200 OK in 2421ms (Views: 2416.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:45:56 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (165.4ms)
+Completed 200 OK in 2213ms (Views: 2198.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:46:34 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (54.3ms)
+Completed 200 OK in 1847ms (Views: 1843.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:46:43 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (146.0ms)
+Completed 200 OK in 2010ms (Views: 2003.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:46:49 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (128.1ms)
+Completed 200 OK in 2558ms (Views: 2551.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:46:57 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (61.9ms)
+Completed 200 OK in 2182ms (Views: 2173.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:47:06 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (155.1ms)
+Completed 200 OK in 2357ms (Views: 2352.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:47:13 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (100.6ms)
+Completed 200 OK in 2425ms (Views: 2420.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:47:50 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (27.2ms)
+Completed 200 OK in 2078ms (Views: 2066.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:48:20 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (19.7ms)
+Completed 200 OK in 1963ms (Views: 1957.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:48:44 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (137.1ms)
+Completed 200 OK in 2526ms (Views: 2520.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:48:54 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (136.3ms)
+Completed 200 OK in 2221ms (Views: 2215.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:49:07 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (54.1ms)
+Completed 200 OK in 2000ms (Views: 1989.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:49:17 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (237.9ms)
+Completed 200 OK in 2081ms (Views: 2076.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:49:23 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (67.5ms)
+Completed 200 OK in 1879ms (Views: 1874.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:49:30 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (194.6ms)
+Completed 200 OK in 1911ms (Views: 1901.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:49:40 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (378.4ms)
+Completed 200 OK in 2608ms (Views: 2597.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:49:47 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (275.8ms)
+Completed 200 OK in 3100ms (Views: 3095.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:49:55 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (91.5ms)
+Completed 200 OK in 2345ms (Views: 2338.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:50:01 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (250.0ms)
+Completed 200 OK in 2265ms (Views: 2257.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:50:52 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (20.5ms)
+Completed 200 OK in 2157ms (Views: 2149.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:51:02 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (17.1ms)
+Completed 200 OK in 2033ms (Views: 2020.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:51:07 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (13.0ms)
+Completed 200 OK in 2550ms (Views: 2541.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:51:24 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (288.1ms)
+Completed 200 OK in 2201ms (Views: 2197.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:53:02 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (249.7ms)
+Completed 200 OK in 2344ms (Views: 2331.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:54:17 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (427.5ms)
+Completed 200 OK in 2936ms (Views: 2930.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:54:58 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (448.2ms)
+Completed 200 OK in 2584ms (Views: 2570.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:55:09 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (243.7ms)
+Completed 200 OK in 2549ms (Views: 2544.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:57:20 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (20.1ms)
+Completed 200 OK in 2426ms (Views: 2421.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:57:49 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (23.2ms)
+Completed 200 OK in 2051ms (Views: 2044.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 11:59:21 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (19.8ms)
+Completed 200 OK in 1541ms (Views: 1534.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:00:09 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (18.6ms)
+Completed 200 OK in 1928ms (Views: 1922.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:00:26 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (23.2ms)
+Completed 200 OK in 2016ms (Views: 2009.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:03:11 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (70.9ms)
+Completed 200 OK in 2267ms (Views: 2262.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:03:23 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (38.2ms)
+Completed 200 OK in 2420ms (Views: 2415.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:03:36 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (11.9ms)
+Completed 200 OK in 2295ms (Views: 2288.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:03:50 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (28.7ms)
+Completed 200 OK in 2117ms (Views: 2111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:04:21 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (132.8ms)
+Completed 200 OK in 2525ms (Views: 2519.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:04:42 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (67.8ms)
+Completed 200 OK in 2260ms (Views: 2251.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:05:10 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (27.1ms)
+Completed 200 OK in 3207ms (Views: 3202.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:05:21 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (633.8ms)
+Completed 200 OK in 2960ms (Views: 2955.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:05:40 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (17.5ms)
+Completed 200 OK in 2730ms (Views: 2721.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:06:04 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (177.6ms)
+Completed 200 OK in 2700ms (Views: 2681.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:06:15 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (331.9ms)
+Completed 200 OK in 2749ms (Views: 2725.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:07:13 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (441.4ms)
+Completed 200 OK in 2745ms (Views: 2740.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:07:23 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (325.2ms)
+Completed 200 OK in 2291ms (Views: 2269.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:07:58 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (314.9ms)
+Completed 200 OK in 2647ms (Views: 2643.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:08:06 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (431.6ms)
+Completed 200 OK in 2725ms (Views: 2719.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:08:23 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (167.3ms)
+Completed 200 OK in 2965ms (Views: 2952.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:08:29 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (276.6ms)
+Completed 200 OK in 2542ms (Views: 2533.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:08:38 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (510.2ms)
+Completed 200 OK in 2628ms (Views: 2622.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:08:47 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (132.6ms)
+Completed 200 OK in 2306ms (Views: 2291.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:09:40 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (298.6ms)
+Completed 200 OK in 2073ms (Views: 2068.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:09:56 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (339.9ms)
+Completed 200 OK in 2866ms (Views: 2861.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:10:08 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (294.7ms)
+Completed 200 OK in 3046ms (Views: 3041.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:10:18 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (42.0ms)
+Completed 200 OK in 2250ms (Views: 2245.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:10:32 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (37.6ms)
+Completed 200 OK in 2318ms (Views: 2310.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:11:46 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (84.4ms)
+Completed 200 OK in 2973ms (Views: 2966.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:13:54 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (14.0ms)
+Completed 200 OK in 1860ms (Views: 1854.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:14:12 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (12.7ms)
+Completed 200 OK in 2535ms (Views: 2530.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:14:26 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (18.3ms)
+Completed 200 OK in 2515ms (Views: 2510.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:14:42 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (513.0ms)
+Completed 200 OK in 3937ms (Views: 3909.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:15:01 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (301.3ms)
+Completed 200 OK in 3100ms (Views: 3093.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:15:48 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (210.8ms)
+Completed 200 OK in 2468ms (Views: 2463.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:16:14 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (351.1ms)
+Completed 200 OK in 2817ms (Views: 2798.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:16:52 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (393.0ms)
+Completed 200 OK in 3089ms (Views: 3082.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:17:02 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (259.9ms)
+Completed 200 OK in 2819ms (Views: 2813.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:17:29 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (495.9ms)
+Completed 200 OK in 3657ms (Views: 3651.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:18:47 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (31.5ms)
+Completed 200 OK in 2799ms (Views: 2782.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:19:18 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (355.5ms)
+Completed 200 OK in 2288ms (Views: 2278.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:19:50 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (465.0ms)
+Completed 200 OK in 2275ms (Views: 2259.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:20:27 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (174.5ms)
+Completed 200 OK in 2193ms (Views: 2182.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:22:02 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (76.7ms)
+Completed 200 OK in 1857ms (Views: 1851.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:22:18 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (30.4ms)
+Completed 200 OK in 2124ms (Views: 2116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:22:35 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (78.1ms)
+Completed 200 OK in 2006ms (Views: 2000.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:23:53 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (59.6ms)
+Completed 200 OK in 1915ms (Views: 1899.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/google.com" for 127.0.0.1 at 2017-09-17 12:23:58 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/google.com"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:24:16 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (54.9ms)
+Completed 200 OK in 2219ms (Views: 2213.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:24:42 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (42.9ms)
+Completed 200 OK in 2121ms (Views: 2116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:25:12 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (74.7ms)
+Completed 200 OK in 2121ms (Views: 2112.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:26:48 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (238.1ms)
+Completed 200 OK in 2223ms (Views: 2215.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:26:56 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (303.8ms)
+Completed 200 OK in 2316ms (Views: 2310.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:27:05 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (310.5ms)
+Completed 200 OK in 2567ms (Views: 2562.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:27:13 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (394.3ms)
+Completed 200 OK in 2377ms (Views: 2370.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:27:19 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (283.0ms)
+Completed 200 OK in 2442ms (Views: 2424.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:27:42 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (511.9ms)
+Completed 200 OK in 2840ms (Views: 2794.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:28:20 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (378.2ms)
+Completed 200 OK in 2483ms (Views: 2469.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:28:42 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (341.6ms)
+Completed 200 OK in 2195ms (Views: 2190.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:30:41 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (320.3ms)
+Completed 200 OK in 2587ms (Views: 2582.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:31:21 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (359.1ms)
+Completed 200 OK in 2233ms (Views: 2228.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:31:40 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (332.4ms)
+Completed 200 OK in 2553ms (Views: 2545.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:39:56 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (15315.0ms)
+Completed 200 OK in 19112ms (Views: 19086.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:40:24 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (44.1ms)
+Completed 200 OK in 2367ms (Views: 2353.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:40:38 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (43.1ms)
+Completed 200 OK in 2387ms (Views: 2380.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:40:55 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (170.2ms)
+Completed 200 OK in 1969ms (Views: 1964.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:41:07 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (16.4ms)
+Completed 200 OK in 2542ms (Views: 2533.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:41:17 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (23.6ms)
+Completed 200 OK in 1974ms (Views: 1968.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:41:22 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (13.7ms)
+Completed 200 OK in 1848ms (Views: 1843.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:41:30 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (16.0ms)
+Completed 200 OK in 2263ms (Views: 2258.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:41:47 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (419.7ms)
+Completed 200 OK in 2351ms (Views: 2346.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:41:54 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (23.9ms)
+Completed 200 OK in 1996ms (Views: 1989.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:42:03 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (23.9ms)
+Completed 200 OK in 2027ms (Views: 2022.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:42:15 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (15.2ms)
+Completed 200 OK in 2222ms (Views: 2206.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:44:21 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (404.0ms)
+Completed 200 OK in 2024ms (Views: 2020.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:44:29 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (420.2ms)
+Completed 200 OK in 2398ms (Views: 2391.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:44:56 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (32.7ms)
+Completed 200 OK in 2020ms (Views: 2012.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:45:07 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (29.4ms)
+Completed 200 OK in 2049ms (Views: 2043.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:45:45 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (190.5ms)
+Completed 200 OK in 1989ms (Views: 1968.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:46:14 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (23.7ms)
+Completed 200 OK in 2116ms (Views: 2099.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:46:30 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal shortcut
+  /Users/abhin/Documents/Project Code/Rails Development/golfreservation/app/views/mathnasium/index.html.slim, Line 20, Column 5
+    div#.col-md-12
+       ^
+):
+    17: 
+    18: 
+    19: div#thirddiv
+    20:   div#.col-md-12
+    21:    h1 Test Text!
+    22:   
+    23: 
+  
+app/views/mathnasium/index.html.slim:20
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:46:36 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (29.1ms)
+Completed 200 OK in 2353ms (Views: 2348.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:47:09 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (514.2ms)
+Completed 200 OK in 2561ms (Views: 2555.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:48:54 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (278.0ms)
+Completed 200 OK in 1866ms (Views: 1850.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:49:20 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (337.1ms)
+Completed 200 OK in 2474ms (Views: 2466.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:49:43 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (214.7ms)
+Completed 200 OK in 2214ms (Views: 2208.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:49:59 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (512.3ms)
+Completed 200 OK in 2484ms (Views: 2480.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:50:11 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (424.4ms)
+Completed 200 OK in 2648ms (Views: 2636.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:50:24 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (18.7ms)
+Completed 200 OK in 2120ms (Views: 2111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:50:36 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (56.8ms)
+Completed 200 OK in 2517ms (Views: 2482.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:51:49 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (29.6ms)
+Completed 200 OK in 1950ms (Views: 1945.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:52:24 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (35.3ms)
+Completed 200 OK in 2059ms (Views: 2054.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-17 12:52:58 -0400
+Processing by ReservationsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-09-17 12:52:58 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 2199ms (Views: 2197.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:53:04 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (63.5ms)
+Completed 200 OK in 2249ms (Views: 2244.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:55:11 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (624.5ms)
+Completed 200 OK in 2521ms (Views: 2510.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:56:18 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (265.7ms)
+Completed 200 OK in 2377ms (Views: 2372.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:56:59 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (382.0ms)
+Completed 200 OK in 2381ms (Views: 2362.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:57:40 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (325.5ms)
+Completed 200 OK in 2301ms (Views: 2295.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:58:34 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (47.7ms)
+Completed 200 OK in 2114ms (Views: 2105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:58:52 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (13.8ms)
+Completed 200 OK in 2111ms (Views: 2106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:59:33 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (664.3ms)
+Completed 200 OK in 2851ms (Views: 2845.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:59:46 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (383.2ms)
+Completed 200 OK in 2074ms (Views: 2068.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 12:59:59 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (379.1ms)
+Completed 200 OK in 2324ms (Views: 2319.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:00:20 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (359.5ms)
+Completed 200 OK in 2634ms (Views: 2629.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:00:36 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (259.2ms)
+Completed 200 OK in 2303ms (Views: 2298.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:01:44 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (194.9ms)
+Completed 200 OK in 2180ms (Views: 2173.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:01:53 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (66.4ms)
+Completed 200 OK in 1913ms (Views: 1905.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:02:02 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (34.3ms)
+Completed 200 OK in 2031ms (Views: 2026.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:02:57 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (35.8ms)
+Completed 200 OK in 2504ms (Views: 2499.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:03:07 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (18.4ms)
+Completed 200 OK in 2207ms (Views: 2202.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:03:24 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (34.0ms)
+Completed 200 OK in 2092ms (Views: 2086.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:04:23 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (40.7ms)
+Completed 200 OK in 2461ms (Views: 2449.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:05:01 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (106.8ms)
+Completed 200 OK in 2149ms (Views: 2143.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:05:31 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (29.9ms)
+Completed 200 OK in 3433ms (Views: 3427.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:05:50 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (37.5ms)
+Completed 200 OK in 2037ms (Views: 2033.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:07:20 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (30.4ms)
+Completed 200 OK in 2330ms (Views: 2318.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:07:38 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (35.7ms)
+Completed 200 OK in 2346ms (Views: 2338.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:08:17 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (350.3ms)
+Completed 200 OK in 2576ms (Views: 2568.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:08:26 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (415.6ms)
+Completed 200 OK in 2771ms (Views: 2759.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:08:45 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (29.6ms)
+Completed 200 OK in 1955ms (Views: 1949.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:15:16 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (21.3ms)
+Completed 200 OK in 1862ms (Views: 1857.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:16:50 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (41.3ms)
+Completed 200 OK in 1858ms (Views: 1847.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:17:11 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (649.5ms)
+Completed 200 OK in 2864ms (Views: 2848.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:17:50 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (371.0ms)
+Completed 200 OK in 2588ms (Views: 2577.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:18:21 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (368.6ms)
+Completed 200 OK in 2391ms (Views: 2386.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:18:32 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (598.5ms)
+Completed 200 OK in 2650ms (Views: 2628.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:18:42 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (1067.2ms)
+Completed 200 OK in 4222ms (Views: 4217.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:18:59 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (25.7ms)
+Completed 200 OK in 2166ms (Views: 2159.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:21:56 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (46.1ms)
+Completed 200 OK in 2220ms (Views: 2203.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:22:31 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (158.0ms)
+Completed 200 OK in 3064ms (Views: 3059.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:23:23 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (447.1ms)
+Completed 200 OK in 2583ms (Views: 2577.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:23:50 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (1123.3ms)
+Completed 200 OK in 3305ms (Views: 3292.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:24:51 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (460.9ms)
+Completed 200 OK in 2580ms (Views: 2572.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:25:05 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (566.5ms)
+Completed 200 OK in 3045ms (Views: 3038.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:25:19 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (454.6ms)
+Completed 200 OK in 2350ms (Views: 2345.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:25:55 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (27.1ms)
+Completed 200 OK in 2653ms (Views: 2646.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:26:25 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (266.6ms)
+Completed 200 OK in 2427ms (Views: 2420.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:26:35 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (48.9ms)
+Completed 200 OK in 2275ms (Views: 2265.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:26:46 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (45.5ms)
+Completed 200 OK in 1969ms (Views: 1963.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:27:41 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (58.1ms)
+Completed 200 OK in 2051ms (Views: 2030.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:28:49 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (42.8ms)
+Completed 200 OK in 2007ms (Views: 1963.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:29:04 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (118.5ms)
+Completed 200 OK in 2354ms (Views: 2342.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:30:06 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (35.5ms)
+Completed 200 OK in 1966ms (Views: 1959.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:32:08 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (473.2ms)
+Completed 200 OK in 1984ms (Views: 1968.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:32:16 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (166.9ms)
+Completed 200 OK in 2771ms (Views: 2765.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:32:27 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (618.0ms)
+Completed 200 OK in 2915ms (Views: 2909.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:32:40 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (614.3ms)
+Completed 200 OK in 2765ms (Views: 2758.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:33:04 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (742.3ms)
+Completed 200 OK in 2588ms (Views: 2567.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:33:24 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (271.4ms)
+Completed 200 OK in 2910ms (Views: 2904.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:33:53 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (38.1ms)
+Completed 200 OK in 2033ms (Views: 2026.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:35:11 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (714.6ms)
+Completed 200 OK in 3106ms (Views: 3100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:35:21 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (506.4ms)
+Completed 200 OK in 2660ms (Views: 2655.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:35:54 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (713.4ms)
+Completed 200 OK in 2967ms (Views: 2958.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:36:16 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (826.0ms)
+Completed 200 OK in 2927ms (Views: 2905.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:43:43 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (23.7ms)
+Completed 200 OK in 1652ms (Views: 1644.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:50:40 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (487.0ms)
+Completed 200 OK in 2361ms (Views: 2354.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:50:52 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (639.4ms)
+Completed 200 OK in 2914ms (Views: 2908.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:51:10 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (644.9ms)
+Completed 200 OK in 2640ms (Views: 2627.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:51:26 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (38.5ms)
+Completed 200 OK in 2194ms (Views: 2188.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:51:42 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (36.5ms)
+Completed 200 OK in 2288ms (Views: 2268.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:51:55 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (38.0ms)
+Completed 200 OK in 2423ms (Views: 2417.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:54:21 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (34.2ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/abhin/Documents/Project Code/Rails Development/golfreservation/app/views/mathnasium/index.html.slim:52: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ils.escape_html_safe(("0" style="border:0"))).to_s)); 
+...                               ^
+/Users/abhin/Documents/Project Code/Rails Development/golfreservation/app/views/mathnasium/index.html.slim:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+...Mississauga+ON" allowfullscreen>))).to_s)); 
+...                               ^
+/Users/abhin/Documents/Project Code/Rails Development/golfreservation/app/views/mathnasium/index.html.slim:58: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/abhin/Documents/Project Code/Rails Development/golfreservation/app/views/mathnasium/index.html.slim:60: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/mathnasium/index.html.slim:52: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/mathnasium/index.html.slim:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/mathnasium/index.html.slim:58: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/mathnasium/index.html.slim:60: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:54:50 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (69.5ms)
+Completed 200 OK in 2091ms (Views: 2079.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:56:31 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (163.6ms)
+Completed 200 OK in 3119ms (Views: 3113.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:56:47 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (292.4ms)
+Completed 200 OK in 2724ms (Views: 2718.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:57:12 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (130.0ms)
+Completed 200 OK in 2413ms (Views: 2406.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:57:22 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (81.0ms)
+Completed 200 OK in 2344ms (Views: 2339.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:58:14 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (734.4ms)
+Completed 200 OK in 2916ms (Views: 2910.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:58:31 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (586.5ms)
+Completed 200 OK in 2927ms (Views: 2918.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:59:12 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (94.7ms)
+Completed 200 OK in 2672ms (Views: 2667.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:59:38 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (486.0ms)
+Completed 500 Internal Server Error in 536ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  width:": expected expression (e.g. 1px, bold), was "}"):
+    1: ==stylesheet_link_tag("mathnasium")
+    2: <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    3: 
+    4: div#firstdiv
+  
+app/assets/stylesheets/mathnasium.css.scss:90
+app/views/mathnasium/index.html.slim:1:in `_app_views_mathnasium_index_html_slim___1829838182087120712_70220498244300'
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:59:49 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (87.3ms)
+Completed 500 Internal Server Error in 174ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  width:": expected expression (e.g. 1px, bold), was "}"):
+    1: ==stylesheet_link_tag("mathnasium")
+    2: <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    3: 
+    4: div#firstdiv
+  
+app/assets/stylesheets/mathnasium.css.scss:89
+app/views/mathnasium/index.html.slim:1:in `_app_views_mathnasium_index_html_slim___1829838182087120712_70220563859520'
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 13:59:56 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (764.4ms)
+Completed 200 OK in 3581ms (Views: 3573.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:00:24 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (523.4ms)
+Completed 200 OK in 3301ms (Views: 3290.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:01:13 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (499.4ms)
+Completed 200 OK in 2808ms (Views: 2796.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:01:26 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (512.1ms)
+Completed 200 OK in 2641ms (Views: 2637.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:01:34 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (579.1ms)
+Completed 200 OK in 2678ms (Views: 2673.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:01:45 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (818.9ms)
+Completed 200 OK in 3208ms (Views: 3202.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:02:01 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (177.1ms)
+Completed 200 OK in 2425ms (Views: 2416.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:02:20 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (51.4ms)
+Completed 200 OK in 1868ms (Views: 1862.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:02:38 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (53.0ms)
+Completed 200 OK in 2620ms (Views: 2614.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:02:48 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (36.5ms)
+Completed 200 OK in 2581ms (Views: 2563.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:04:06 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (164.8ms)
+Completed 200 OK in 2038ms (Views: 2034.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:04:37 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (44.7ms)
+Completed 200 OK in 2633ms (Views: 2627.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:05:15 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (498.1ms)
+Completed 200 OK in 2594ms (Views: 2580.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:05:48 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (538.8ms)
+Completed 200 OK in 2342ms (Views: 2332.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:06:02 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (138.9ms)
+Completed 200 OK in 2241ms (Views: 2235.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:06:15 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (48.2ms)
+Completed 200 OK in 2199ms (Views: 2194.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:06:23 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (30.2ms)
+Completed 200 OK in 2367ms (Views: 2354.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:06:41 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (39.7ms)
+Completed 200 OK in 2474ms (Views: 2469.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:06:48 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (84.2ms)
+Completed 200 OK in 2460ms (Views: 2455.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:07:00 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (55.3ms)
+Completed 200 OK in 2314ms (Views: 2309.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:07:18 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (839.9ms)
+Completed 200 OK in 2938ms (Views: 2918.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:08:07 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (65.2ms)
+Completed 200 OK in 2066ms (Views: 2062.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:08:32 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (677.6ms)
+Completed 200 OK in 2594ms (Views: 2586.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:08:50 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (102.5ms)
+Completed 200 OK in 2689ms (Views: 2683.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:09:14 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (679.6ms)
+Completed 200 OK in 2956ms (Views: 2951.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:09:25 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (55.2ms)
+Completed 200 OK in 2488ms (Views: 2464.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:09:41 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (598.5ms)
+Completed 200 OK in 2778ms (Views: 2763.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:09:54 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (723.9ms)
+Completed 200 OK in 2700ms (Views: 2688.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:10:08 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (693.9ms)
+Completed 200 OK in 2558ms (Views: 2552.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:17:01 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (809.9ms)
+Completed 200 OK in 3625ms (Views: 3620.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:17:15 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (606.1ms)
+Completed 200 OK in 3267ms (Views: 3259.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:17:59 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (90.5ms)
+Completed 200 OK in 2712ms (Views: 2697.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:18:38 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (588.5ms)
+Completed 200 OK in 3129ms (Views: 3122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:18:55 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (2137.6ms)
+Completed 200 OK in 3833ms (Views: 3827.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:19:09 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (686.4ms)
+Completed 200 OK in 2735ms (Views: 2728.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:19:42 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (41.6ms)
+Completed 200 OK in 1781ms (Views: 1775.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:20:03 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (50.7ms)
+Completed 200 OK in 1941ms (Views: 1936.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:20:12 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (54.6ms)
+Completed 200 OK in 1987ms (Views: 1982.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:20:22 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (33.1ms)
+Completed 200 OK in 2184ms (Views: 2174.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:20:37 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (61.4ms)
+Completed 200 OK in 2468ms (Views: 2459.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:20:51 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (59.5ms)
+Completed 200 OK in 2350ms (Views: 2339.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:21:11 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (279.1ms)
+Completed 200 OK in 2144ms (Views: 2126.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:21:19 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (93.6ms)
+Completed 200 OK in 2243ms (Views: 2212.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:21:32 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (229.0ms)
+Completed 200 OK in 2219ms (Views: 2213.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:21:39 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (44.9ms)
+Completed 200 OK in 1889ms (Views: 1862.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:21:52 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (50.0ms)
+Completed 200 OK in 2196ms (Views: 2187.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:22:24 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (75.1ms)
+Completed 200 OK in 2552ms (Views: 2544.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:22:46 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (82.4ms)
+Completed 200 OK in 2549ms (Views: 2544.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:24:28 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (637.4ms)
+Completed 200 OK in 3025ms (Views: 3017.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:25:46 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (609.9ms)
+Completed 200 OK in 2545ms (Views: 2539.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:32:40 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (540.7ms)
+Completed 200 OK in 3499ms (Views: 3485.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:33:03 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (758.5ms)
+Completed 200 OK in 2831ms (Views: 2825.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:33:15 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (916.3ms)
+Completed 200 OK in 3272ms (Views: 3260.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:33:43 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (774.1ms)
+Completed 200 OK in 2856ms (Views: 2851.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:33:58 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (778.6ms)
+Completed 200 OK in 3151ms (Views: 3144.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:34:10 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (356.3ms)
+Completed 500 Internal Server Error in 398ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  float": expected ";", was ": left;"):
+    1: ==stylesheet_link_tag("mathnasium")
+    2: <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    3: 
+    4: div#firstdiv
+  
+app/assets/stylesheets/mathnasium.css.scss:76
+app/views/mathnasium/index.html.slim:1:in `_app_views_mathnasium_index_html_slim___1829838182087120712_70220498554740'
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:34:19 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (995.9ms)
+Completed 200 OK in 2875ms (Views: 2858.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:34:24 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (402.9ms)
+Completed 200 OK in 4578ms (Views: 4569.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:34:33 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (672.3ms)
+Completed 200 OK in 2531ms (Views: 2522.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:34:54 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (61.6ms)
+Completed 200 OK in 2249ms (Views: 2241.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:35:08 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (1116.5ms)
+Completed 200 OK in 3530ms (Views: 3521.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:35:28 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (792.1ms)
+Completed 200 OK in 3072ms (Views: 3066.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:35:57 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (835.5ms)
+Completed 200 OK in 2848ms (Views: 2841.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:36:06 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (57.9ms)
+Completed 200 OK in 2008ms (Views: 2003.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:36:45 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (147.7ms)
+Completed 200 OK in 2188ms (Views: 2183.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:36:57 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (168.3ms)
+Completed 200 OK in 2245ms (Views: 2237.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:37:15 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (797.8ms)
+Completed 200 OK in 3064ms (Views: 3058.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:37:25 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (1119.4ms)
+Completed 200 OK in 3231ms (Views: 3224.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:37:36 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (730.1ms)
+Completed 200 OK in 3491ms (Views: 3482.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:38:28 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (785.7ms)
+Completed 200 OK in 2995ms (Views: 2988.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:38:37 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (901.6ms)
+Completed 200 OK in 2744ms (Views: 2738.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:39:59 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (71.5ms)
+Completed 200 OK in 2181ms (Views: 2138.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:41:15 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (148.1ms)
+Completed 200 OK in 2560ms (Views: 2537.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:41:30 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (70.9ms)
+Completed 200 OK in 2520ms (Views: 2514.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:41:39 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (125.8ms)
+Completed 200 OK in 2271ms (Views: 2264.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:41:46 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (224.9ms)
+Completed 200 OK in 2037ms (Views: 2031.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:42:11 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (131.5ms)
+Completed 200 OK in 2172ms (Views: 2164.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:42:30 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (159.7ms)
+Completed 200 OK in 2421ms (Views: 2416.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:42:35 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (374.4ms)
+Completed 200 OK in 2767ms (Views: 2757.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:43:38 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (122.9ms)
+Completed 200 OK in 1984ms (Views: 1976.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:43:53 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (80.8ms)
+Completed 200 OK in 2615ms (Views: 2609.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:44:07 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (40.9ms)
+Completed 200 OK in 2099ms (Views: 2080.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:44:21 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (117.2ms)
+Completed 200 OK in 1722ms (Views: 1718.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:44:33 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (181.1ms)
+Completed 200 OK in 1930ms (Views: 1918.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:44:45 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (305.8ms)
+Completed 200 OK in 1980ms (Views: 1975.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:44:52 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (58.1ms)
+Completed 200 OK in 2506ms (Views: 2500.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:44:59 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (61.8ms)
+Completed 200 OK in 1955ms (Views: 1946.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:45:04 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (123.2ms)
+Completed 200 OK in 2246ms (Views: 2241.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:45:10 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (212.4ms)
+Completed 200 OK in 1694ms (Views: 1689.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:45:43 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (239.1ms)
+Completed 200 OK in 4435ms (Views: 4420.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:46:26 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (236.8ms)
+Completed 200 OK in 3215ms (Views: 3193.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:46:44 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (106.6ms)
+Completed 200 OK in 2317ms (Views: 2285.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:46:53 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (60.8ms)
+Completed 200 OK in 3006ms (Views: 2979.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:47:57 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (147.0ms)
+Completed 200 OK in 3125ms (Views: 3108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:48:23 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (945.3ms)
+Completed 200 OK in 3184ms (Views: 3178.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:48:35 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (857.0ms)
+Completed 200 OK in 3120ms (Views: 3007.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:48:46 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (783.9ms)
+Completed 200 OK in 2850ms (Views: 2844.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:48:58 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (722.4ms)
+Completed 200 OK in 2633ms (Views: 2627.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:49:12 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (840.9ms)
+Completed 200 OK in 3033ms (Views: 3026.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:49:29 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (810.9ms)
+Completed 200 OK in 3101ms (Views: 3095.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:49:39 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (1108.9ms)
+Completed 200 OK in 3078ms (Views: 3073.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:50:38 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (48.9ms)
+Completed 200 OK in 2495ms (Views: 2480.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:51:41 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (72.9ms)
+Completed 200 OK in 2173ms (Views: 2168.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:51:46 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (395.1ms)
+Completed 200 OK in 2693ms (Views: 2687.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:52:06 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (700.3ms)
+Completed 200 OK in 2639ms (Views: 2634.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:52:13 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (607.9ms)
+Completed 200 OK in 2648ms (Views: 2643.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:52:32 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (1163.7ms)
+Completed 200 OK in 3115ms (Views: 3109.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:52:43 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (868.0ms)
+Completed 200 OK in 2713ms (Views: 2708.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:53:00 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (735.0ms)
+Completed 200 OK in 2779ms (Views: 2773.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:53:19 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (750.6ms)
+Completed 200 OK in 2815ms (Views: 2809.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:53:28 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (746.5ms)
+Completed 200 OK in 2810ms (Views: 2805.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:54:19 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (99.1ms)
+Completed 200 OK in 1990ms (Views: 1985.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:55:08 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (842.7ms)
+Completed 200 OK in 2902ms (Views: 2897.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:55:19 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (744.4ms)
+Completed 200 OK in 2797ms (Views: 2788.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:55:31 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (798.0ms)
+Completed 200 OK in 3142ms (Views: 3137.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:55:46 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (832.7ms)
+Completed 200 OK in 2545ms (Views: 2540.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:57:05 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (48.7ms)
+Completed 200 OK in 2023ms (Views: 2018.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:58:25 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (209.7ms)
+Completed 200 OK in 2347ms (Views: 2341.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 14:58:47 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (133.5ms)
+Completed 200 OK in 2452ms (Views: 2437.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:01:26 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (134.4ms)
+Completed 200 OK in 2314ms (Views: 2308.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:01:36 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (41.3ms)
+Completed 200 OK in 2030ms (Views: 2016.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:05:48 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (560.0ms)
+Completed 200 OK in 2648ms (Views: 2642.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:06:53 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (813.9ms)
+Completed 200 OK in 3100ms (Views: 3093.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:07:18 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (1034.5ms)
+Completed 200 OK in 3429ms (Views: 3415.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:07:29 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (1126.0ms)
+Completed 200 OK in 3111ms (Views: 3100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:08:19 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (188.9ms)
+Completed 200 OK in 2559ms (Views: 2543.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:08:37 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (993.1ms)
+Completed 200 OK in 3328ms (Views: 3323.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:08:57 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (203.3ms)
+Completed 200 OK in 2266ms (Views: 2261.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:09:06 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (113.4ms)
+Completed 200 OK in 2031ms (Views: 2023.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:10:18 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (99.0ms)
+Completed 200 OK in 2353ms (Views: 2345.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:11:02 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (925.0ms)
+Completed 200 OK in 3013ms (Views: 3008.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:11:13 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (261.8ms)
+Completed 200 OK in 2815ms (Views: 2811.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:11:42 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (916.5ms)
+Completed 200 OK in 3188ms (Views: 3181.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:11:56 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (1013.0ms)
+Completed 200 OK in 2875ms (Views: 2858.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mathnasium" for 127.0.0.1 at 2017-09-17 15:12:09 -0400
+Processing by MathnasiumController#index as HTML
+  Rendering mathnasium/index.html.slim within layouts/application
+  Rendered mathnasium/index.html.slim within layouts/application (1120.1ms)
+Completed 200 OK in 3617ms (Views: 3599.5ms | ActiveRecord: 0.0ms)
+
+

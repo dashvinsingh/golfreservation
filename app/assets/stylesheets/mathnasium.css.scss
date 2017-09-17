@@ -6,6 +6,10 @@
   margin: 0 auto;
   padding: 0 auto;
 }
+
+h4, h1 {
+  color: white;
+}
 #firstdiv {
   margin: 0 auto;
   margin-top: 10px;
@@ -21,6 +25,172 @@
 
 #seconddiv {
   background-color: #e8352f;
-  height: 350px;
+  height: 370px;
   text-align: center;
+}
+
+#thirddiv {
+  // background-color: #fff100;
+  // background-color: #ffbb33;
+  background-color: #d8d8d9;
+  height: 370px;
+  text-align: center;
+  border: 8px solid #000;
+
+}
+#thirddiv #content {
+  width: 50%;
+  line-height: 500px;
+}
+#thirddiv h1 {
+  color: black;
+}
+
+#fourthdiv {
+  background-color: #fff;
+  // height: 370px;
+  text-align: center;
+  width: 80%;
+}
+#fourthdiv #content2 {
+  margin-top: 5%;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+#fourthdiv p {
+  text-align: left;
+  margin: 3%;
+}
+#fourthdiv #top {
+  // margin: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  // text-align: center;
+}
+#foruthdiv #info {
+  margin: 0 auto;
+}
+#fourthdiv #info #text {
+  // margin: 0;
+  margin-left: 1%;
+  // width:80%;
+  float: left;
+  // text-align: center;
+}
+#fourthdiv #info #pic {
+  // margin: 0;
+  // margin-left: 10%;
+  // width: 20%;
+  // float: right;
+  // text-align: center;
+}
+#fourthdiv #info #pic img {
+  width: 400px;
+}
+
+
+#fifthdiv {
+  background-color: #f2f2f2;
+  height: 500px;
+  text-align: center;
+}
+
+#fifthdiv #map {
+  width: 55%;
+  float: left;
+  margin: 0 auto;
+}
+#fifthdiv #contact {
+  width: 45%;
+  margin: 0 auto;
+  float: right;
+  margin-top: 5%;
+  text-align: left;
+}
+
+#sixthdiv {
+  background-color: #fff;
+  height: 600px;
+  text-align: center;
+}
+#sixthdiv #picture {
+  float: right;
+  width: 50%;
+}
+#sixthdiv img {
+  max-width: 600px;
+  padding : 5%;
+  padding-top: 10%;
+  vertical-align: middle;
+
+}
+#sixthdiv #testimonial {
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+
+#finaldiv {
+  background-color: #e8352f;
+  height: 250px;
+  text-align: center;
+}
+
+#secondone {
+  width: 50%;
+  float: right;
+  margin-top: 1.5%;
+}
+#secondtwo {
+  width: 50%;
+  float: right;
+  // margin: 2px;
+  margin-top: 1.5%;
+}
+#makesense {
+  width: 45%;
+  margin-top: 8%;
+}
+#button1 {
+  width: 70%;
+  // height: 150%;
+  height: 60px;
+  border: 5px solid #000;
+  border-radius: 60px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 150%;
+  margin-top: 5%;
+  color: black;
+}
+
+#button1:hover, #button2:hover, #button3:hover {
+  background-color:#ffbb33;
+}
+
+#button2 {
+  width: 40%;
+  // height: 150%;
+  height: 60px;
+  border: 5px solid #000;
+  border-radius: 60px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 150%;
+  margin-top: 5%;
+  color: black;
+}
+#button3 {
+  width: 40%;
+  // height: 150%;
+  height: 60px;
+  border: 5px solid #000;
+  border-radius: 60px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 150%;
+  margin-top: 5%;
+  color: black;
 }
