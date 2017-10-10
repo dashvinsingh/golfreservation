@@ -1,4 +1,8 @@
-# README
+# Golf Reservation on Ruby on Rails
+
+![](gr1.png)
+![](gr2.png)
+![](gr3.png)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
